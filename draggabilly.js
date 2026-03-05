@@ -339,7 +339,7 @@ proto.animate = function() {
 // left/top positioning
 proto.setLeftTop = function() {
   let { x, y } = this.position;
-  this.element.style.left = `${x}px`;
+  this.element.style.insetInlineStart = `${x}px`;
   this.element.style.top = `${y}px`;
 };
 
